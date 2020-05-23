@@ -20,6 +20,9 @@ public class Covid19APIClient {
                 "https://api.covid19api.com/summary", Summary.class)).getGlobal();
     }
 
-
+    public Country[] getCountries() {
+        return (restTemplate.getForObject(
+                "https://api.covid19api.com/summary", Summary.class)).getCountries();
+    }
 
 }

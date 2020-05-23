@@ -24,5 +24,4 @@ public class Global {
     int NewRecovered;
     @JsonProperty("TotalRecovered")
     int TotalRecovered;
-
 }

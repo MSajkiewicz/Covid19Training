@@ -14,6 +14,7 @@ public class Summary {
 
     @JsonProperty("Global")
     private Global global;
+
     @JsonProperty("Countries")
     private Country[] countries;
 }
